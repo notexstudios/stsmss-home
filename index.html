@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shree Tribhuwan Shanti Secondary School</title>
     <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
-    <header id="header_panel" class="h-14 flex w-full justify-between items-center px-6 md:px-12">
+    <!-- header section start notex sc -->
+    <header id="header_panel" class="h-16 flex w-full justify-between items-center px-6 md:px-12">
 
-        <img src="./img/logo.png" alt="Logo" class="w-16">
+        <img src="../img/main-logo.png" alt="Logo" class="h-10">
 
-        <nav class="min-w-96 pt-3 hidden md:block">
+        <nav class="min-w-96 hidden lg:block">
 
-            <a class="text-txt_major font-sans text-sm mx-4 underline-offset-4 underline " href="#">Home</a>
+            <a class="text-txt_major font-sans text-sm mx-4 underline-offset-4 underline font-semibold" href="#">Home</a>
             <a class="text-txt_major font-sans text-sm mx-4" href="#">About</a>
             <a class="text-txt_major font-sans text-sm mx-4" href="#">Academics</a>
             <a class="text-txt_major font-sans text-sm mx-4" href="#">Admission</a>
@@ -23,50 +25,80 @@
 
         </nav>
 
-        <div class="h-5 flex w-28 justify-end">
-            <img src="./icons/facebook.png" alt="" class="mx-1">
-            <img src="./icons/gmail.png" alt="" class="mx-1">
-            <img src="./icons/phone.png" alt="" class="mx-1">
+        <div class="h-7 flex w-40 items-center text-center justify-end">
+            <div class=" items-center hidden lg:flex">
+                <img src="../icons/facebook.png" alt="" class="mx-1 h-5">
+                <img src="../icons/gmail.png" alt="" class="mx-1 h-5">
+                <img src="../icons/phone.png" alt="" class="mx-1 h-5">
+            </div>
+            <div class="lg:hidden">
+                <i class="fa-solid fa-bars text-txt_major h-7 text-[1.75rem]  text-center mt-[2px]"></i>
+            </div>
         </div>
 
     </header>
+    <!-- header sections end notex sc -->
+
+
     <div class="bg-bg_major h-7 content-center">
         <p class="text-txt_minor text-xs text-center items-center ">
-                Notice! Notice! Notice! Class XI  Registration Has  Started<span class="hidden"> In Shree Tribhuwan Shanti Secondary School. Please Click Here to Register Notice! Notice! Notice! Class XI  Registration Has Started In Shree Tribhuwan ShantiModel Secondary</span>
+                Notice! Notice! Notice! Class XI  Registration Has  Started<span class="hidden lg:inline"> In Shree Tribhuwan Shanti Secondary School. Please Click Here to Register Notice! Notice! Notice! Class XI  Registration Has Started</span>
         </p>
     </div>
 
-    <main style="background-image: url('./img/bg.jpg')" class="h-[85dvh]  bg-cover bg-center relative px-6 pr-6 md:px-12">
+    <!-- main section start notex sc -->
 
+    <main>
 
-        <div>
-            <h1 class=" text-2xl pt-[20px] text-txt_minor font-extrabold stroke-txt_major font-sans md:text-4xl" >
-                Shree Tribhuwan Shanti Secondary School <br>Since 2026 B.S.
-            </h1>
+        <!-- hero section start notex sc -->
+        <div style="background-image: url('../img/bg.jpg')" class="h-[70dvh] bg-cover bg-center relative px-6 md:px-12">
 
-            <h3 class="text-txt_minor  mt-4 md:mt-8 w-[90%] md:w-[78%] text-sm md:text-xl">
-                With the motto of  “Quality Education” , STSMSS aim to garner excellent academic proficiency along with sound humanitarian attitude in our students.
-                <br>
-                Our emphasis lie on quality education, career guidance , psychological monitoring and various extra curricular activities in a cordial and well disciplined environment.
-            </h3>
+            <div class="absolute block w-full pr-6 md:pr-12 top-[15%]">
+
+                <div style="text-shadow: 0 0 .5rem #0f1a29 ;" >
+                    <h1 class=" pr-6 text-[1.75rem] text-center text-txt_minor font-extrabold drop-shadow-2xl md:text-4xl lg:text-6xl" >
+                        Shree Tribhuwan Shanti Secondary School
+                    </h1>
+                    <h2 class="text-center mt-2 text-txt_minor text-xl font-bold lg:text-4xl lg:mt-8">
+                        Since 2026 B.S.
+                    </h2>
+                    <!-- <p class="pr-9 pl-3 text-justify text-txt_minor mt-8">
+                        With the motto of “Quality Education” , STSMSS aim to garner excellent academic proficiency along with sound humanitarian attitude in our students. 
+                    </p> -->
+                </div>
+
+                <div class="grid grid-cols-2 mt-24 gap-6 pr-6 place-content-evenly md:gap-x-12 lg:mt-24 ">
+                    <div class="col-span-1 bg-bg_major font-light ml-7 h-9 grid place-content-center text-txt_minor md:h-12 md:text-xl md:ml-36 lg:ml-64 lg:h-16 lg:text-2xl">
+                        View More
+                    </div>
+                    <div class="col-span-1 bg-bg_minor font-light mr-7 h-9 grid place-content-center text-txt_major md:h-12 md:text-xl md:mr-36 lg:mr-64 lg:h-16 lg:text-2xl">
+                        Login
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="bg-[#0a1535] left absolute -bottom-[40%] md:-bottom-[10%] mr-6 md:mr-12 rounded-sm p-4 flex gap-4 flex-col md:flex-row  ">
+
+                <div class="col-span-1 text-sm text-txt_minor">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quisquam odit nostrum, veniam totam esse aliquid labore ratione nemo a voluptate omnis minima asperiores, sit dignissimos alias? Nihil, eaque beatae!
+                </div>
+                <hr>
+                <div class="col-span-1 text-sm text-txt_minor">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quisquam odit nostrum, veniam totam esse aliquid labore ratione nemo a voluptate omnis minima asperiores, sit dignissimos alias? Nihil, eaque beatae!
+                </div>
+                <hr>
+                <div class="col-span-1 text-sm text-txt_minor">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quisquam odit nostrum, veniam totam esse aliquid labore ratione nemo a voluptate omnis minima asperiores, sit dignissimos alias? Nihil, eaque beatae!
+                </div>
+    
+            </div>
+
 
         </div>
+        <!-- hero section end notex sc -->
 
-        <div class="bg-[#0a1535] left absolute -bottom-[20%] md:-bottom-[10%] mr-6 md:mr-12 rounded-sm p-4 flex gap-4 flex-col md:flex-row  ">
 
-            <div class="col-span-1 text-sm text-txt_minor">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quisquam odit nostrum, veniam totam esse aliquid labore ratione nemo a voluptate omnis minima asperiores, sit dignissimos alias? Nihil, eaque beatae!
-            </div>
-            <hr>
-            <div class="col-span-1 text-sm text-txt_minor">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quisquam odit nostrum, veniam totam esse aliquid labore ratione nemo a voluptate omnis minima asperiores, sit dignissimos alias? Nihil, eaque beatae!
-            </div>
-            <hr>
-            <div class="col-span-1 text-sm text-txt_minor">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quisquam odit nostrum, veniam totam esse aliquid labore ratione nemo a voluptate omnis minima asperiores, sit dignissimos alias? Nihil, eaque beatae!
-            </div>
-
-        </div>
         
     </main>
     
