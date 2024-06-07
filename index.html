@@ -6,32 +6,39 @@
     <title>Shree Tribhuwan Shanti Secondary School</title>
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
 
     <!-- header section start notex sc -->
-    <header id="header_panel" class="h-16 flex w-full justify-between items-center px-6 md:px-12">
+    <header id="header_panel" class="bg-bg_minor fixed top-0 h-[68px] z-50 flex w-full justify-between items-center px-6 md:px-12">
 
-        <img src="../img/main-logo.png" alt="Logo" class="h-10">
+        <img src="./img/main-logo.png" alt="Logo" class="h-8 md:h-10">
 
-        <nav class="min-w-96 hidden lg:block">
+        <nav class="min-w-96 hidden lg:block ">
 
-            <a class="text-txt_major font-sans text-sm mx-4 underline-offset-4 underline font-semibold" href="#">Home</a>
-            <a class="text-txt_major font-sans text-sm mx-4" href="#">About</a>
-            <a class="text-txt_major font-sans text-sm mx-4" href="#">Academics</a>
-            <a class="text-txt_major font-sans text-sm mx-4" href="#">Admission</a>
-            <a class="text-txt_major font-sans text-sm mx-4" href="#">Gallery</a>
-            <a class="text-txt_major font-sans text-sm mx-4 mr-0" href="#">Contact</a>
+            <a class="text-txt_major font-sans text-base mx-4 underline-offset-4 underline font-semibold" href="#">Home</a>
+            <a class="text-txt_major font-sans text-base mx-4" href="#">About</a>
+            <a class="text-txt_major font-sans text-base mx-4" href="#">Academics</a>
+            <a class="text-txt_major font-sans text-base mx-4" href="#">Admission</a>
+            <a class="text-txt_major font-sans text-base mx-4" href="#">Gallery</a>
+            <a class="text-txt_major font-sans text-base mx-4 mr-0" href="#">Contact</a>
 
         </nav>
 
-        <div class="h-7 flex w-40 items-center text-center justify-end">
-            <div class=" items-center hidden lg:flex">
-                <img src="./icons/facebook.png" alt="" class="mx-1 h-5">
-                <img src="./icons/gmail.png" alt="" class="mx-1 h-5">
-                <img src="./icons/phone.png" alt="" class="mx-1 h-5">
+        <div class=" items-center hidden lg:flex">
+            <img src="./icons/facebook.png" alt="" class="mx-1 h-5">
+            <img src="./icons/gmail.png" alt="" class="mx-1 h-5">
+            <img src="./icons/phone.png" alt="" class="mx-1 h-5">
+        </div>
+
+        <div class="h-7 flex w-50 items-center text-center justify-end">
+            <div>
+                <button onclick="alert('Coming Soon')" class="bg-bg_major text-txt_minor px-6 py-1 rounded-full">
+                    Login
+                </button>
             </div>
-            <div class="lg:hidden">
+            <div class="lg:hidden ml-2 md:ml-4">
                 <i class="fa-solid fa-bars text-txt_major h-7 text-[1.75rem]  text-center mt-[2px]"></i>
             </div>
         </div>
@@ -40,23 +47,22 @@
     <!-- header sections end notex sc -->
 
 
-    <div class="bg-bg_major h-7 content-center">
-        <p class="text-txt_minor text-xs text-center items-center ">
-                Notice! Notice! Notice! Class XI  Registration Has  Started<span class="hidden lg:inline"> In Shree Tribhuwan Shanti Secondary School. Please Click Here to Register Notice! Notice! Notice! Class XI  Registration Has Started</span>
-        </p>
-    </div>
-
     <!-- main section start notex sc -->
 
-    <main>
+    <main class="mt-[68px]">
+        <div class="bg-bg_major h-7 content-center block">
+            <p class="text-txt_minor text-xs text-center items-center ">
+                    Notice! Notice! Notice! Class XI  Registration Has  Started<span class="hidden lg:inline"> In Shree Tribhuwan Shanti Secondary School. Please Click Here to Register Notice! Notice! Notice! Class XI  Registration Has Started</span>
+            </p>
+        </div>
 
         <!-- hero section start notex sc -->
-        <div style="background-image: url('./img/bg.jpg')" class="h-[70dvh] bg-cover bg-center relative px-6 md:px-12">
+        <div style="background-image: url('./img/bg.jpg')" class="h-[75dvh] bg-cover bg-center relative px-6 md:px-12">
 
-            <div class="absolute block w-[90%] md:pr-12 top-[15%]">
+            <div class="absolute block w-[90%] md:pr-12 top-[25%]">
 
                 <div style="text-shadow: 0 0 .5rem #0f1a29 ;" >
-                    <h1 class=" pr-6 text-[1.75rem] text-center text-txt_minor font-extrabold drop-shadow-2xl md:text-4xl lg:text-6xl" >
+                    <h1 class=" pr-6 text-2xl text-center text-txt_minor font-extrabold drop-shadow-2xl md:text-4xl lg:text-6xl" >
                         Shree Tribhuwan Shanti Secondary School
                     </h1>
                     <h2 class="text-center mt-2 text-txt_minor text-xl font-bold lg:text-4xl lg:mt-8">
@@ -67,39 +73,89 @@
                     </p> -->
                 </div>
 
-                <div class="grid grid-cols-2 mt-24 gap-6 pr-6 place-content-evenly md:gap-x-12 lg:mt-24 ">
+                <!-- <div class="grid grid-cols-2 mt-24 gap-6 pr-6 place-content-evenly md:gap-x-12 lg:mt-24 ">
                     <div class="col-span-1 bg-bg_major font-light ml-7 h-9 grid place-content-center text-txt_minor md:h-12 md:text-xl md:ml-36 lg:ml-64 lg:h-16 lg:text-2xl">
                         View More
                     </div>
                     <div class="col-span-1 bg-bg_minor font-light mr-7 h-9 grid place-content-center text-txt_major md:h-12 md:text-xl md:mr-36 lg:mr-64 lg:h-16 lg:text-2xl">
                         Login
                     </div>
-                    
-                </div>
+                </div> -->
             </div>
 
-            <div class="bg-[#0a1535] left absolute -bottom-[40%] md:-bottom-[10%] mr-6 md:mr-12 rounded-sm p-4 flex gap-4 flex-col md:flex-row  ">
+            <section class="block relative -bottom-[60dvh]">
+                <div class="bg-[#0a1535] w-[100%] rounded-md flex gap-3 flex-col lg:flex-row  lg:h-28">
 
-                <div class="col-span-1 text-sm text-txt_minor">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quisquam odit nostrum, veniam totam esse aliquid labore ratione nemo a voluptate omnis minima asperiores, sit dignissimos alias? Nihil, eaque beatae!
-                </div>
-                <hr>
-                <div class="col-span-1 text-sm text-txt_minor">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quisquam odit nostrum, veniam totam esse aliquid labore ratione nemo a voluptate omnis minima asperiores, sit dignissimos alias? Nihil, eaque beatae!
-                </div>
-                <hr>
-                <div class="col-span-1 text-sm text-txt_minor">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quisquam odit nostrum, veniam totam esse aliquid labore ratione nemo a voluptate omnis minima asperiores, sit dignissimos alias? Nihil, eaque beatae!
+                    <div class="col-span-1 h-18 py-4 text-sm text-txt_minor relative px-[6%] flex lg:px-[3%] lg:w-[30%]">
+                        <div class="w-[30%]">
+                            <i class="fa-solid fa-scroll text-5xl lg:text-7xl"></i>
+                        </div>
+                        <div class="w-[66%] lg:ml-8 mt-2">
+                            <h2 class="font-sans text-xl font-bold">Notice</h2>
+                            <h3 class="font-sans text-sm font-light">Latest Updates</h3>
+                        </div>
+                    </div>
+                    <hr class="w-[90%] mx-[5%]">
+                    <div class="col-span-1 h-16 py-4 text-sm text-txt_minor relative px-[6%] flex lg:px-[3%] lg:w-[30%]">
+                        <div class="w-[30%]">
+                            <i class="fa-solid fa-trophy text-5xl lg:text-7xl"></i>
+                        </div>
+                        <div class="w-[60%] lg:ml-8 mt-2">
+                            <h2 class="font-sans text-xl font-bold">Sports</h2>
+                            <h3 class="font-sans text-sm font-light">Our Trophies</h3>
+                        </div>
+                    </div>
+                    <hr class="w-[90%] mx-[5%]">
+                    <div class="col-span-1 h-18 pb-4 text-sm text-txt_minor relative px-[6%] flex lg:px-[3%] lg:py-4 lg:w-[30%]">
+                        <div class="w-[30%] ">
+                            <i class="fa-solid fa-graduation-cap text-5xl lg:text-7xl"></i>
+                        </div>
+                        <div class="w-[60%] lg:ml-8 mt-2">
+                            <h2 class="font-sans text-xl font-bold">Academics</h2>
+                            <h3 class="font-sans text-sm font-light">Our Achievements</h3>
+                        </div>
+                    </div>
+
                 </div>
     
-            </div>
-
+            </section>
 
         </div>
         <!-- hero section end notex sc -->
 
 
+        <section class="mt-52">
+            <div class="bg-white py-6 sm:py-8 lg:py-12">
+                <div class="mx-auto max-w-screen-xl px-6 md:px-2">
+                  <div class="flex flex-col">
+                    
         
+                    <div class="md:pt-8 col-span-1 w-[100%]">
+              
+                      <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6 md:text-left">About The School</h2>
+              
+                      <p class="mb-6 text-txt_major sm:text-lg md:mb-8 text-justify">
+                        Shree Tribhuwan Shanti Secondary School, Kaski prioritizes humanity, cultural, moral and spiritual values along with knowledge. We aim to develop well-rounded thoughtful and confident students prepared to cope with the ever-changing globalised world. We provide a culture of mutual respect and acceptance with children moving onto their next venture with the skills.<br />
+                      </p>
+                      <div class="text-txt_major">
+                        <div><i class="fa-regular fa-circle-check"></i> Activity based value education learning.</div>
+                        <div><i class="fa-regular fa-circle-check"></i> Competitive learning environment.</div>
+                        <div><i class="fa-regular fa-circle-check"></i> One to one in study and sports</div>
+                        <div><i class="fa-regular fa-circle-check"></i> Team of professionals</div>
+                        <div><i class="fa-regular fa-circle-check"></i> Mind mapping and cultural exchange.</div>
+                        <div><i class="fa-regular fa-circle-check"></i> Induction for teachers..</div>
+                      </div>
+                      <br>
+                    <div class="col-span-1">
+                        <div class="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
+                          <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600&h=750" loading="lazy" alt="Photo by Martin Sanchez" class="h-full w-full object-cover object-center" />
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
     </main>
     
 </body>
